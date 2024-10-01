@@ -1,10 +1,10 @@
-# PlutoEditorColorThemes.jl
+# [PlutoEditorColorThemes.jl](https://github.com/AtelierArith/PlutoEditorColorThemes.jl)
 
-Let's change your Pluto notebook style to a Monokai theme
+Change the style of Pluto Notebook to your preferred one.
 
 ## Description
 
-This Julia package provides methods for overriding the default color theme of Pluto Notebook.
+This Julia package [PlutoEditorColorThemes.jl](https://github.com/AtelierArith/PlutoEditorColorThemes.jl) provides methods for overriding the default color theme of Pluto Notebook.
 
 ## Requirements
 
