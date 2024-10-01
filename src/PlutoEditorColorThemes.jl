@@ -14,13 +14,17 @@ include("PlutoUIResource.jl")
 
 Override Pluto.jl's default color theme using "path/to/frontend/styles/<stylefile>"
 """
-function setcolortheme!(stylefile = "monokai_dark.css")
-    styles_dir = joinpath(pkgdir(@__MODULE__), "frontend", "styles")
-    cssfile = joinpath(styles_dir, stylefile)
-    x = LocalResource(cssfile)
+function setcolortheme!(stylefile::AbstractString)
+    x = LocalResource(stylefile)
     return @htl """
     	<link rel="stylesheet" href="$(x.src)">
     """
+end
+
+function setcolortheme!()
+    styles_dir = joinpath(pkgdir(@__MODULE__)::String, "frontend", "styles")
+    stylefile = joinpath(styles_dir, "monokai_dark.css")
+    setcolortheme!(stylefile) 
 end
 
 end # module PlutoEditorColorThemes
