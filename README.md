@@ -2,6 +2,8 @@
 
 Change the style of Pluto Notebook to your preferred one.
 
+<img width="881" alt="image" src="https://github.com/user-attachments/assets/2b19c319-d530-4130-aabb-f6dd37e255d4">
+
 ## Description
 
 This Julia package [PlutoEditorColorThemes.jl](https://github.com/AtelierArith/PlutoEditorColorThemes.jl) provides methods for overriding the default color theme of Pluto Notebook.
