@@ -1,8 +1,8 @@
 # [PlutoEditorColorThemes.jl](https://github.com/AtelierArith/PlutoEditorColorThemes.jl)
 
-Change the style of Pluto Notebook to your preferred one.
+Customize your Pluto Notebook with your preferred theme. 
 
-<img width="881" alt="image" src="https://github.com/user-attachments/assets/2b19c319-d530-4130-aabb-f6dd37e255d4">
+<img width="759" alt="image" src="https://github.com/user-attachments/assets/4231c673-f4f2-4c49-9510-af5b36b2cec2">
 
 ## Description
 
